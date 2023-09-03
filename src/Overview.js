@@ -1,4 +1,5 @@
 import './App.css';
+import UpcomingMovies from './UpcomingMovies';
 
 function Overview() {
   return (
@@ -6,7 +7,9 @@ function Overview() {
       <div className='page-title-div'>
         <h2 className='page-title' >Overview</h2>
       </div>
-      <section className='container'></section>
+      <section className='container'>
+        <UpcomingMovies/>
+      </section>
     </main>
   );
 }
