@@ -5,9 +5,74 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: black;
+  width: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 128px;
+  padding-right: 128px;
+  height: 72px;
+  justify-content: space-between;
+  flex-shrink: 0;
+  background: var(--brand-colors-moviebox-black, #000);
+}
+
+.header-text {
+  font-family: "Helvetica Neue";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: var(--brand-gradients-moviebox-primary, linear-gradient(274deg, #8a999e 11.27%, #95a2cf 36.72%, #e4bade 61.72%, #FFA9A4 82.79%, #FED2CE 107.29%, #99423a 107.29%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+}
+
+.nav-link {
+  list-style: none;
+  text-decoration: none;
+  color: var(--brand-colors-moviebox-white, #FFF);
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+main {
+  padding: 20px;
+}
+
+.page-title-div {
+  display: flex;
+  margin-top: -20px;
+  height: 52px;
+  padding: 20px 108px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--brand-colors-moviebox-highlight-50, #E0E0E0);
+  }
+
+.page-title {
+  color: var(--brand-colors-moviebox-black, #000);
+  font-family: Helvetica Neue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
