@@ -7,10 +7,6 @@ body {
   width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 .header {
   display: flex;
@@ -34,6 +30,13 @@ code {
   -webkit-text-fill-color: transparent;
 }
 
+.header-text span {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
 ul {
   display: flex;
   gap: 16px;
@@ -53,9 +56,44 @@ main {
   padding: 20px;
 }
 
+.footer {
+  display: flex;
+  color: white;
+  height: 72px;
+  padding: 10px 108px;
+  justify-content: center;
+  gap: 8px;
+  align-items: center;
+  flex-shrink: 0;
+  border: 1px solid var(--brand-colors-moviebox-highlight-50, #E0E0E0);
+  background: var(--brand-colors-moviebox-black, #000);
+}
+
+
+.footer p {
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.footer-brand-name {
+  background: var(--brand-gradients-moviebox-primary, linear-gradient(274deg, #8a999e 11.27%, #95a2cf 36.72%, #e4bade 61.72%, #FFA9A4 82.79%, #FED2CE 107.29%, #99423a 107.29%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-text {
+  color: var(--brand-colors-moviebox-gray, #6A6A6A);
+  font-weight: 300;
+}
+
+
+
 .page-title-div {
   display: flex;
   margin-top: -20px;
+  margin-bottom: -10px;
   height: 52px;
   padding: 20px 108px;
   justify-content: space-between;
@@ -73,11 +111,27 @@ main {
 }
 
 .container {
-  display: inline-flex;
+  display: flex;
   padding: 32px 108px;
   flex-direction: column;
-  align-items: center;
   gap: 32px;
+}
+
+.section-title {
+  color: var(--brand-colors-moviebox-black, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: -30px;
+}
+
+.section-subtitle {
+  color: var(--brand-colors-moviebox-gray, #6A6A6A);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .table-head {
@@ -102,6 +156,11 @@ main {
   padding: 24px 16px;
   justify-content: space-between;
   align-items: center;
+}
+
+
+.avatar-div {
+  width: 40px;
 }
 
 .tag {

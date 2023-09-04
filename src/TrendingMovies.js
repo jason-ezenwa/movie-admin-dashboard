@@ -7,9 +7,9 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { Tag } from 'primereact/tag';
-import { upcomingMovies } from "./data";
+import { trendingMovies } from "./data";
 
-export default function UpcomingMovies () {
+export default function TrendingMovies () {
   return (
     <TableContainer component={Paper} >
       <Table aria-label="simple table">
@@ -18,23 +18,23 @@ export default function UpcomingMovies () {
             <TableCell> Name</TableCell>
             <TableCell align="left">Category</TableCell>
             <TableCell align="left">Watchlists</TableCell>
-            <TableCell align="left">Owner</TableCell>
-            <TableCell align="left">Premier Date</TableCell>
+            <TableCell align="left">Streams</TableCell>
+            <TableCell align="left">Release Date</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
-          {upcomingMovies.map((upcomingMovie, idx) => (
+          {trendingMovies.map((trendingMovie, idx) => (
             <TableRow className="table-row" key={idx}>
               <TableCell className="name-column" component="th" scope="row" style={{ display: 'flex', alignItems: 'center', gap: '10px', flexShrink: 0 }}>
-                <img src={`./images/${upcomingMovie.avatar}`} alt="movie avatar"/>
-                {upcomingMovie.name}
+                <img src={`./images/${trendingMovie.avatar}`} alt="movie avatar"/>
+                {trendingMovie.name}
               </TableCell>
-              <TableCell align="left">{upcomingMovie.category.map((category) => (
+              <TableCell align="left">{trendingMovie.category.map((category) => (
                 <Tag className="tag" value={category}/>
               ))}</TableCell>
-              <TableCell align="left">{upcomingMovie.watchlists}</TableCell>
-              <TableCell align="left">{upcomingMovie.owner}</TableCell>
-              <TableCell align="left">{upcomingMovie.premier_date}</TableCell>
+              <TableCell align="left">{trendingMovie.watchlists}</TableCell>
+              <TableCell align="left">{trendingMovie.streams}</TableCell>
+              <TableCell align="left">{trendingMovie.release_date}</TableCell>
             </TableRow>
           ))}
         </TableBody>
