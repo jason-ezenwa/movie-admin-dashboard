@@ -42,6 +42,10 @@ ul {
   gap: 16px;
 }
 
+Navlink {
+  cursor: pointer;
+}
+
 .nav-link {
   list-style: none;
   text-decoration: none;
@@ -52,6 +56,16 @@ ul {
   line-height: normal;
 }
 
+.nav-link-active {
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #999daf;
+}
+
 main {
   padding: 20px;
 }
@@ -59,6 +73,7 @@ main {
 .footer {
   display: flex;
   color: white;
+  bottom: 0;
   height: 72px;
   padding: 10px 108px;
   justify-content: center;
@@ -175,4 +190,33 @@ main {
   line-height: normal;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+}
+
+.movies-nav {
+  margin-bottom: -22px;
+  border-bottom: 1px solid var(--brand-colors-moviebox-highlight-50, #E0E0E0);
+}
+
+.movies-nav ul{
+  padding-left: 0;
+}
+
+.movies-nav-link {
+  list-style: none;
+  text-decoration: none;
+  color: var(--brand-colors-moviebox-white, #000);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.movies-nav-link-active {
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #4755A8;
 }

@@ -7,10 +7,13 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { Tag } from 'primereact/tag';
-import { trendingMovies } from "./data";
+import { upcomingMovies } from "../data";
+import SectionTitles from "./SectionTitles";
 
-export default function TrendingMovies () {
+export default function UpcomingMovies () {
   return (
+    <>
+    <SectionTitles h2="Upcoming movie premieres" paragraph="Keep track of the upcoming movie premieres" />
     <TableContainer component={Paper} >
       <Table aria-label="simple table">
         <TableHead className="table-head">
@@ -18,27 +21,28 @@ export default function TrendingMovies () {
             <TableCell> Name</TableCell>
             <TableCell align="left">Category</TableCell>
             <TableCell align="left">Watchlists</TableCell>
-            <TableCell align="left">Streams</TableCell>
-            <TableCell align="left">Release Date</TableCell>
+            <TableCell align="left">Owner</TableCell>
+            <TableCell align="left">Premier Date</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
-          {trendingMovies.map((trendingMovie, idx) => (
+          {upcomingMovies.map((upcomingMovie, idx) => (
             <TableRow className="table-row" key={idx}>
               <TableCell className="name-column" component="th" scope="row" style={{ display: 'flex', alignItems: 'center', gap: '10px', flexShrink: 0 }}>
-                <img src={`./images/${trendingMovie.avatar}`} alt="movie avatar"/>
-                {trendingMovie.name}
+                <img src={`./images/${upcomingMovie.avatar}`} alt="movie avatar"/>
+                {upcomingMovie.name}
               </TableCell>
-              <TableCell align="left">{trendingMovie.category.map((category) => (
+              <TableCell align="left">{upcomingMovie.category.map((category) => (
                 <Tag className="tag" value={category}/>
               ))}</TableCell>
-              <TableCell align="left">{trendingMovie.watchlists}</TableCell>
-              <TableCell align="left">{trendingMovie.streams}</TableCell>
-              <TableCell align="left">{trendingMovie.release_date}</TableCell>
+              <TableCell align="left">{upcomingMovie.watchlists}</TableCell>
+              <TableCell align="left">{upcomingMovie.owner}</TableCell>
+              <TableCell align="left">{upcomingMovie.premier_date}</TableCell>
             </TableRow>
           ))}
         </TableBody>
       </Table>
     </TableContainer>
+    </>
   );
 }
