@@ -7,6 +7,17 @@ Dive into insightful data about users and movies, beautifully presented through 
 NB: This project is under active development and is not yet complete.
 
 
+## Tech Stack
+
+React: The project is built using the React JavaScript library, providing a robust and efficient front-end framework.
+
+Material-UI: I've utilized Material-UI, a popular React UI framework, to create a sleek and responsive user interface.
+
+JSX: I use JSX (JavaScript XML) for defining component structures, making it easier to work with React's component-based architecture.
+
+CSS: This project incorporates Cascading Style Sheets (CSS) for styling and layout, ensuring a polished and visually appealing user interface.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
