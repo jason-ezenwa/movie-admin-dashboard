@@ -129,7 +129,7 @@ export const allMovies = [
     category: [
       "Horror", "Crime"
     ],
-    avatar: "avi_spiderman_no_way_home.png",
+    avatar: "avi_after_hours.jpg",
   },
   {
     name: "Ant Man",
@@ -140,7 +140,7 @@ export const allMovies = [
     category: [
       "Action"
     ],
-    avatar: "avi_spiderman_no_way_home.png",
+    avatar: "avi_ant_man.jpg",
   },
   {
     name: "Captain Marvel",
@@ -151,7 +151,7 @@ export const allMovies = [
     category: [
       "Action", "Fantasy"
     ],
-    avatar: "avi_spiderman_no_way_home.png",
+    avatar: "avi_captain_marvel.jpg",
   },
   {
     name: "The Spider Man",
@@ -173,7 +173,7 @@ export const allMovies = [
     category: [
       "Action", "Crime"
     ],
-    avatar: "avi_spiderman_no_way_home.png",
+    avatar: "avi_the_godfather.jpg",
   },
   {
     name: "Wandavision",
@@ -184,7 +184,7 @@ export const allMovies = [
     category: [
       "Comedy", "Action"
     ],
-    avatar: "avi_spiderman_no_way_home.png",
+    avatar: "avi_wandavision.jpg",
   },
   {
     name: "Ralph Breaks the Internet",
@@ -195,7 +195,7 @@ export const allMovies = [
     category: [
       "Comedy", "Animation"
     ],
-    avatar: "avi_spiderman_no_way_home.png",
+    avatar: "avi_ralph_breaks.jpg",
   },
   {
     name: "X-Men The Last Stand",
@@ -206,7 +206,7 @@ export const allMovies = [
     category: [
       "Action", "Sci-Fi"
     ],
-    avatar: "avi_spiderman_no_way_home.png",
+    avatar: "avi_xmen_the_last_stand.jpg",
   },
   {
     name: "Yogi Bear",
@@ -217,7 +217,7 @@ export const allMovies = [
     category: [
       "Animation", "Comedy"
     ],
-    avatar: "avi_spiderman_no_way_home.png",
+    avatar: "avi_yogi_bear.jpg",
   },
   {
     name: "Zootopia",
@@ -228,6 +228,6 @@ export const allMovies = [
     category: [
       "Animation", "Comedy"
     ],
-    avatar: "avi_spiderman_no_way_home.png",
+    avatar: "avi_zootopia.jpg",
   },
 ]
