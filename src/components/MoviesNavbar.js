@@ -13,6 +13,9 @@ export default function MoviesNavbar() {
 				<NavLink className={location.pathname === "/upcoming-premiers" ? "movies-nav-link-active" : "movies-nav-link"} to="/upcoming-premiers" activeStyle>
 					Upcoming Premiers
 				</NavLink>
+        <NavLink className={location.pathname === "/movie-of-the-week" ? "movies-nav-link-active" : "movies-nav-link"} to="/movie-of-the-week" activeStyle>
+					Movie of the Week
+				</NavLink>
 			</ul>
 		</nav>
 	);

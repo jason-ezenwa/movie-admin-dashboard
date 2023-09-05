@@ -231,3 +231,57 @@ export const allMovies = [
     avatar: "avi_zootopia.jpg",
   },
 ]
+
+export const hottestThisWeek = {
+  name: "Spider Man - No way home",
+  watchlists: "509,282",
+  streams: "53,100,749",
+  popularity: 95,
+  release_date: "5th April, 2023",
+  category: [
+    "Action", "Thriller"
+  ],
+  avatar: "avi_spiderman_no_way_home.png",
+  audience: {
+    men: 39596083,
+    women: 13504666
+  },
+  impressions: "101,783,945",
+  shares: "92,466",
+  likes: "280,348",
+  similar_movies: [
+    {
+      name: "Avengers Black Widow",
+      watchlists: "389,246",
+      streams: "41,508,726",
+      popularity: 88,
+      release_date: "21st May, 2023",
+      category: [
+        "Action", "Thriller"
+      ],
+      avatar: "avi_black_widow.png",
+    },
+    {
+      name: "Ant Man",
+      watchlists: "509,282",
+      streams: "21,600,900",
+      popularity: 60,
+      release_date: "16th July, 2023",
+      category: [
+        "Action"
+      ],
+      avatar: "avi_ant_man.jpg",
+    },
+    {
+      name: "The Spider Man",
+      watchlists: "204,962",
+      streams: "33,710,925",
+      popularity: 80,
+      release_date: "25th December, 2022",
+      category: [
+        "Sci-Fi", "Action"
+      ],
+      avatar: "avi_spiderman_no_way_home.png",
+    },
+  ]
+}
