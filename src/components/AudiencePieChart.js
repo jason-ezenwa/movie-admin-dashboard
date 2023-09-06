@@ -23,8 +23,6 @@ export default function AudiencePieChart(props) {
           data: pieChartData,
         },
       ]}
-      width={300}
-      height={200}
     />
   );
 };

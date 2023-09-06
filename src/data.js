@@ -243,8 +243,8 @@ export const hottestThisWeek = {
   ],
   avatar: "avi_spiderman_no_way_home.png",
   audience: {
-    men: 39596083,
-    women: 13504666
+    men: 35100000,
+    women: 18000749
   },
   impressions: "101,783,945",
   shares: "92,466",
@@ -283,5 +283,23 @@ export const hottestThisWeek = {
       ],
       avatar: "avi_spiderman_no_way_home.png",
     },
+  ],
+  top_locations: [
+    {
+      name: "United States",
+      percentage: 45,
+    },
+    {
+      name: "Canada",
+      percentage: 25,
+    },
+    {
+      name: "Nigeria",
+      percentage: 13,
+    },
+    {
+      name: "Others",
+      percentage: 17,
+    }
   ]
 }

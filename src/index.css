@@ -227,7 +227,33 @@ main {
 }
 
 .audience-chart-div {
+  display: flex;
+  flex-direction: column;
   padding: 20px;
+  justify-content: center;
+  align-items: center;
   width: 300px;
+  height: 200px;
   border: 1px solid #E0E0E0;
+  margin-top: 20px;
+}
+
+.top-locations-div {
+  width: 300px;
+  height: 200px;
+  padding-top: 20px;
+  padding-left: 50px;
+  margin-top: 10px;
+
+}
+
+.top-locations-data {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 10px;
+}
+
+.top-locations-progress-value {
+  width: 50px;
 }

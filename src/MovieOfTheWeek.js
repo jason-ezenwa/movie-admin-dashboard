@@ -15,7 +15,7 @@ function MovieOfTheWeek() {
         <h3 className='movie-title'>{hottestThisWeek.name}</h3>
       </section>
       <section className='container'>
-        <img style={{'width': '80px', }} src="./images/avi_spiderman_no_way_home.png" alt="movie poster"/>
+        <img style={{'width': '150px', 'height': '200px', 'borderRadius': '8px' }} src="./images/avi_spiderman_no_way_home.png" alt="movie poster"/>
       </section>
       <section className='container'>
         <Audience/>
