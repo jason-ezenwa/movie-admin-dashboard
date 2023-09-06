@@ -13,7 +13,7 @@ import SectionTitles from "./SectionTitles";
 
 export default function EveryMovie () {
   const allMoviesSorted = allMovies.sort((a, b) => {
-    // sorts the movies array by alphabetical order
+    // sorts the movies array by alphabetical order.
     return a.name.localeCompare(b.name)
   });
   return (
