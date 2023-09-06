@@ -141,12 +141,30 @@ main {
   margin-bottom: -30px;
 }
 
+.audience-section-title {
+  color: var(--brand-colors-moviebox-black, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .section-subtitle {
   color: var(--brand-colors-moviebox-gray, #6A6A6A);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.audience-section-subtitle {
+  color: var(--brand-colors-moviebox-gray, #6A6A6A);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: -15px;
+  flex-shrink: 0;
 }
 
 .table-head {
@@ -221,10 +239,21 @@ main {
   color: #4755A8;
 }
 
+.movie-picture-and-info-grapics {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  top: -60px;
+}
+
 .audience-infographics {
   display: flex;
   gap: 32px;
 }
+
+
 
 .audience-chart-div {
   display: flex;

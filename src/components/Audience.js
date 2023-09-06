@@ -5,9 +5,9 @@ import LinearProgressWithLabel from "./Popularity"
 import { hottestThisWeek } from "../data";
 
 export default function Audience () {
-  const topLocations = hottestThisWeek.top_locations.map((location) => {
+  const topLocations = hottestThisWeek.top_locations.map((location, idx) => {
     return (
-      <div className="top-locations-data">
+      <div className="top-locations-data" key={idx}>
         <div>{location.name}</div>
         <LinearProgressWithLabel className="top-locations-progress-value" value={location.percentage}/>
       </div>
@@ -15,7 +15,8 @@ export default function Audience () {
   })
   return (
     <>
-    <SectionTitles h2="Audience" paragraph="Specific gender, age range and top locations" />
+    <h2 className="audience-section-title" >Audience</h2>
+    <p className="audience-section-subtitle">Specific gender, age range and top locations</p>
     <section className="audience-infographics" >
       <div className="audience-chart-div" >
       <SectionTitles h2="Gender"/>

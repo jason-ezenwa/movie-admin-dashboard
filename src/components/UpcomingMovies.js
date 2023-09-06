@@ -32,8 +32,8 @@ export default function UpcomingMovies () {
                 <img src={`./images/${upcomingMovie.avatar}`} alt="movie avatar"/>
                 {upcomingMovie.name}
               </TableCell>
-              <TableCell align="left">{upcomingMovie.category.map((category) => (
-                <Tag className="tag" value={category}/>
+              <TableCell align="left">{upcomingMovie.category.map((category, idx) => (
+                <Tag className="tag" value={category} key={idx}/>
               ))}</TableCell>
               <TableCell align="left">{upcomingMovie.watchlists}</TableCell>
               <TableCell align="left">{upcomingMovie.owner}</TableCell>

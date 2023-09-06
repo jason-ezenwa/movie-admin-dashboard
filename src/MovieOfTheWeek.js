@@ -14,11 +14,13 @@ function MovieOfTheWeek() {
         <MoviesNavbar/>
         <h3 className='movie-title'>{hottestThisWeek.name}</h3>
       </section>
-      <section className='container'>
-        <img style={{'width': '150px', 'height': '200px', 'borderRadius': '8px' }} src="./images/avi_spiderman_no_way_home.png" alt="movie poster"/>
-      </section>
-      <section className='container'>
-        <Audience/>
+      <section className="container movie-picture-and-info-grapics">
+        <section>
+          <img style={{'width': '200px', 'height': '100%', 'borderRadius': '8px', 'position': 'relative', 'bottom': 0 }} src="./images/spiderman.jpg" alt="movie poster"/>
+        </section>
+        <section className="audience" style={{'paddingBottom': '20px'}}>
+          <Audience />
+        </section>
       </section>
       <section className='container'>
         <MovieProperties/>

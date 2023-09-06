@@ -32,8 +32,8 @@ export default function SimilarMovies () {
                 <img src={`./images/${trendingMovie.avatar}`} alt="movie avatar"/>
                 {trendingMovie.name}
               </TableCell>
-              <TableCell align="left">{trendingMovie.category.map((category) => (
-                <Tag className="tag" value={category}/>
+              <TableCell align="left">{trendingMovie.category.map((category, idx) => (
+                <Tag className="tag" value={category} key={idx}/>
               ))}</TableCell>
               <TableCell align="left">{trendingMovie.watchlists}</TableCell>
               <TableCell align="left">{trendingMovie.streams}</TableCell>
