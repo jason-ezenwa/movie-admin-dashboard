@@ -1,4 +1,4 @@
-# Flairbox Admin Dashboard - a movie admin dashboard
+# Flairbox Admin Dashboard - a simple admin dashboard
 
 Welcome to the Flairbox Admin Dashboard, a comprehensive movie administration hub! Explore an array of views, from upcoming premieres to trending films, and access a complete database of all available movies.
 
@@ -15,7 +15,7 @@ React: The project is built using the React JavaScript library, providing a robu
 
 Material-UI: I've utilized Material-UI, a popular React UI framework, to create a sleek and responsive user interface.
 
-JSX: I use JSX (JavaScript XML) for defining component structures, making it easier to work with React's component-based architecture.
+JSX: I used JSX (JavaScript XML) for defining component structures, making it easier to work with React's component-based architecture.
 
 CSS: This project incorporates Cascading Style Sheets (CSS) for styling and layout, ensuring a polished and visually appealing user interface.
 
