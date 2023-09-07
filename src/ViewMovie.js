@@ -1,18 +1,23 @@
-import MovieOfTheWeekProperties from "./components/MovieOfTheWeekPropeties";
+import MovieProperties from "./components/MovieProperties";
 import InterestTrackingInsights from "./components/InterestTrackingInsights";
 import SimilarMovies from "./components/SimilarMovies";
 import MoviesNavbar from "./components/MoviesNavbar";
 import Audience from "./components/Audience"; 
-import { hottestThisWeek } from "./data";
-function MovieOfTheWeek() {
+import { allMovies } from "./data";
+import { useParams } from "react-router-dom";
+function ViewMovie() {
+  const params = useParams()
+  const { movieName } = params;
+  const nameOfMovie = movieName.replace(/_/g, ' ');
+  console.log(nameOfMovie)
+  const foundMovie = allMovies.find(movieObj => {
+    return movieObj.name === nameOfMovie;
+  });
   return (
     <main>
-      <div className='page-title-div'>
-        <h2 className='page-title' >Movie of the Week</h2>
-      </div>
       <section className='container'>
         <MoviesNavbar/>
-        <h3 className='movie-title'>{hottestThisWeek.name}</h3>
+        <h3 className='movie-title'>{foundMovie.name}</h3>
       </section>
       <section className="container movie-picture-and-info-grapics">
         <section>
@@ -23,10 +28,10 @@ function MovieOfTheWeek() {
         </section>
       </section>
       <section className='container'>
-        <MovieOfTheWeekProperties/>
+        <MovieProperties movie={foundMovie}/>
       </section>
       <section className='container'>
-        <InterestTrackingInsights/>
+        <InterestTrackingInsights/> {/* uses movie of the week's data */}
       </section>
       <section className='container'>
         <SimilarMovies/>
@@ -35,4 +40,4 @@ function MovieOfTheWeek() {
   );
 }
 
-export default MovieOfTheWeek;
+export default ViewMovie;

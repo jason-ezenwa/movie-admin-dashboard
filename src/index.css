@@ -104,6 +104,29 @@ main {
 }
 
 
+.view-button {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--brand-colors-moviebox-highlight-50, #E0E0E0);
+  background: var(--brand-colors-moviebox-white, #FFF);
+  cursor: pointer;
+}
+
+.view-button:active {
+  transform: scale(0.95);
+}
+
+.view-button-link {
+   text-decoration: none;
+}
+
 
 .page-title-div {
   display: flex;

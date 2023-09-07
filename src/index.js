@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Routes, Route }
 import TrendingMoviesPage from './TrendingMoviesPage';
 import UpcomingMoviesPage from './UpcomingMoviesPage';
 import MovieOfTheWeek from './MovieOfTheWeek';
+import ViewMovie from './ViewMovie';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
     <Routes>
         <Route path='/' exact element={< Overview/>} />
         <Route path='/movies' exact element={< Movies/>} />
+        <Route path='/movies/:movieName' exact element={< ViewMovie />} />
         <Route path='/trending-movies' exact element={< TrendingMoviesPage/>} />
         <Route path='/upcoming-premiers' exact element={< UpcomingMoviesPage/>} />
         <Route path='/movie-of-the-week' exact element={< MovieOfTheWeek/>} />

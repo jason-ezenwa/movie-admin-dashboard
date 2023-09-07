@@ -9,6 +9,7 @@ import Paper from "@mui/material/Paper";
 import { Tag } from 'primereact/tag';
 import { upcomingMovies } from "../data";
 import SectionTitles from "./SectionTitles";
+import ViewButton from "./ViewButton";
 
 export default function UpcomingMovies () {
   return (
@@ -23,6 +24,7 @@ export default function UpcomingMovies () {
             <TableCell align="left">Watchlists</TableCell>
             <TableCell align="left">Owner</TableCell>
             <TableCell align="left">Premier Date</TableCell>
+            <TableCell align="left"></TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -38,6 +40,7 @@ export default function UpcomingMovies () {
               <TableCell align="left">{upcomingMovie.watchlists}</TableCell>
               <TableCell align="left">{upcomingMovie.owner}</TableCell>
               <TableCell align="left">{upcomingMovie.premier_date}</TableCell>
+              <TableCell align="left"><ViewButton movieName={upcomingMovie.name}/></TableCell>
             </TableRow>
           ))}
         </TableBody>

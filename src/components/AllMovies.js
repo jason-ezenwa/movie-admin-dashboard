@@ -10,6 +10,7 @@ import LinearProgressWithLabel from "./Popularity"
 import { Tag } from 'primereact/tag';
 import { allMovies } from "../data";
 import SectionTitles from "./SectionTitles";
+import ViewButton from "./ViewButton";
 
 export default function EveryMovie () {
   const allMoviesSorted = allMovies.sort((a, b) => {
@@ -29,6 +30,7 @@ export default function EveryMovie () {
             <TableCell align="left">Watchlists</TableCell>
             <TableCell align="left">Streams</TableCell>
             <TableCell align="left">Release Date</TableCell>
+            <TableCell align="left"></TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -45,6 +47,7 @@ export default function EveryMovie () {
               <TableCell align="left">{movie.watchlists}</TableCell>
               <TableCell align="left">{movie.streams}</TableCell>
               <TableCell align="left">{movie.release_date}</TableCell>
+              <TableCell align="left"><ViewButton movieName={movie.name}/></TableCell>
             </TableRow>
           ))}
         </TableBody>

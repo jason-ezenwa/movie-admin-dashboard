@@ -86,6 +86,7 @@ export const allMovies = [
       "Action", "Thriller"
     ],
     avatar: "avi_black_widow.png",
+    image: "black_widow.jpg",
   },
   {
     name: "Moonlight",
@@ -97,6 +98,7 @@ export const allMovies = [
       "True Story"
     ],
     avatar: "avi_moonlight.png",
+    image: "moonlight.jpg",
   },
   {
     name: "Grimsby",
@@ -108,6 +110,7 @@ export const allMovies = [
       "Comedy", "Crime"
     ],
     avatar: "avi_grimsby.png",
+    image: "grimsby.jpg",
   },
   {
     name: "Spider Man - No way home",
@@ -119,6 +122,7 @@ export const allMovies = [
       "Action", "Thriller"
     ],
     avatar: "avi_spiderman_no_way_home.png",
+    image: "spiderman.jpg",
   },
   {
     name: "After Hours",
@@ -130,6 +134,7 @@ export const allMovies = [
       "Horror", "Crime"
     ],
     avatar: "avi_after_hours.jpg",
+    image: "after_hours.jpg",
   },
   {
     name: "Ant Man",
@@ -141,6 +146,7 @@ export const allMovies = [
       "Action"
     ],
     avatar: "avi_ant_man.jpg",
+    image: "ant_man.jpg",
   },
   {
     name: "Captain Marvel",
@@ -152,6 +158,7 @@ export const allMovies = [
       "Action", "Fantasy"
     ],
     avatar: "avi_captain_marvel.jpg",
+    image: "captain_marvel.jpg",
   },
   {
     name: "The Spider Man",
@@ -163,6 +170,7 @@ export const allMovies = [
       "Sci-Fi", "Action"
     ],
     avatar: "avi_spiderman_no_way_home.png",
+    image: "spiderman_no_way_home.jpg",
   },
   {
     name: "The Godfather",
@@ -174,6 +182,7 @@ export const allMovies = [
       "Action", "Crime"
     ],
     avatar: "avi_the_godfather.jpg",
+    image: "the_godfather.jpg",
   },
   {
     name: "Wandavision",
@@ -185,6 +194,7 @@ export const allMovies = [
       "Comedy", "Action"
     ],
     avatar: "avi_wandavision.jpg",
+    image: "wandavision.jpg",
   },
   {
     name: "Ralph Breaks the Internet",
@@ -196,6 +206,7 @@ export const allMovies = [
       "Comedy", "Animation"
     ],
     avatar: "avi_ralph_breaks.jpg",
+    image: "ralph_breaks.jpg",
   },
   {
     name: "X-Men The Last Stand",
@@ -207,6 +218,7 @@ export const allMovies = [
       "Action", "Sci-Fi"
     ],
     avatar: "avi_xmen_the_last_stand.jpg",
+    image: "xmen_the_last_stand.jpg",
   },
   {
     name: "Yogi Bear",
@@ -218,6 +230,7 @@ export const allMovies = [
       "Animation", "Comedy"
     ],
     avatar: "avi_yogi_bear.jpg",
+    image: "yogi_bear.jpg",
   },
   {
     name: "Zootopia",
@@ -229,6 +242,7 @@ export const allMovies = [
       "Animation", "Comedy"
     ],
     avatar: "avi_zootopia.jpg",
+    image: "zootopia.jpg",
   },
 ]
 

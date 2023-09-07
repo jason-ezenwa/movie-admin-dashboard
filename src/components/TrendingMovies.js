@@ -9,6 +9,7 @@ import Paper from "@mui/material/Paper";
 import { Tag } from 'primereact/tag';
 import { trendingMovies } from "../data";
 import SectionTitles from "./SectionTitles";
+import ViewButton from "./ViewButton";
 
 export default function TrendingMovies () {
   return (
@@ -23,6 +24,7 @@ export default function TrendingMovies () {
             <TableCell align="left">Watchlists</TableCell>
             <TableCell align="left">Streams</TableCell>
             <TableCell align="left">Release Date</TableCell>
+            <TableCell align="left"></TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -38,6 +40,7 @@ export default function TrendingMovies () {
               <TableCell align="left">{trendingMovie.watchlists}</TableCell>
               <TableCell align="left">{trendingMovie.streams}</TableCell>
               <TableCell align="left">{trendingMovie.release_date}</TableCell>
+              <TableCell align="left"><ViewButton movieName={trendingMovie.name}/></TableCell>
             </TableRow>
           ))}
         </TableBody>

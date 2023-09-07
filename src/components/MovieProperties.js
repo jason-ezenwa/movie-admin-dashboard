@@ -7,10 +7,10 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { Tag } from 'primereact/tag';
-import { hottestThisWeek } from "../data";
 import SectionTitles from "./SectionTitles";
 
-export default function MovieProperties () {
+export default function MovieProperties (props) {
+  const movie = props.movie;
   return (
     <>
     <SectionTitles h2="Movie Properties" paragraph="Details of our movie of the week" />
@@ -26,12 +26,12 @@ export default function MovieProperties () {
         </TableHead>
         <TableBody>
         <TableRow className="table-row">
-              <TableCell >{hottestThisWeek.category.map((category) => (
-                <Tag className="tag" value={category}/>
+              <TableCell >{movie.category.map((category, idx) => (
+                <Tag className="tag" value={category} key={idx}/>
               ))}</TableCell>
-              <TableCell align="left">{hottestThisWeek.watchlists}</TableCell>
-              <TableCell align="left">{hottestThisWeek.streams}</TableCell>
-              <TableCell align="left">{hottestThisWeek.release_date}</TableCell>
+              <TableCell align="left">{movie.watchlists}</TableCell>
+              <TableCell align="left">{movie.streams}</TableCell>
+              <TableCell align="left">{movie.release_date}</TableCell>
             </TableRow>
         </TableBody>
       </Table>
