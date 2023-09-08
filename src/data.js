@@ -86,7 +86,7 @@ export const allMovies = [
       "Action", "Thriller"
     ],
     avatar: "avi_black_widow.png",
-    image: "black_widow.jpg",
+    image: "black_widow.png",
   },
   {
     name: "Moonlight",
@@ -98,7 +98,7 @@ export const allMovies = [
       "True Story"
     ],
     avatar: "avi_moonlight.png",
-    image: "moonlight.jpg",
+    image: "moonlight.png",
   },
   {
     name: "Grimsby",
@@ -110,7 +110,7 @@ export const allMovies = [
       "Comedy", "Crime"
     ],
     avatar: "avi_grimsby.png",
-    image: "grimsby.jpg",
+    image: "grimsby.png",
   },
   {
     name: "Spider Man - No way home",
@@ -134,7 +134,7 @@ export const allMovies = [
       "Horror", "Crime"
     ],
     avatar: "avi_after_hours.jpg",
-    image: "after_hours.jpg",
+    image: "after_hours.png",
   },
   {
     name: "Ant Man",
@@ -146,7 +146,7 @@ export const allMovies = [
       "Action"
     ],
     avatar: "avi_ant_man.jpg",
-    image: "ant_man.jpg",
+    image: "ant_man.png",
   },
   {
     name: "Captain Marvel",
@@ -158,7 +158,7 @@ export const allMovies = [
       "Action", "Fantasy"
     ],
     avatar: "avi_captain_marvel.jpg",
-    image: "captain_marvel.jpg",
+    image: "captain_marvel.png",
   },
   {
     name: "The Spider Man",
@@ -170,7 +170,7 @@ export const allMovies = [
       "Sci-Fi", "Action"
     ],
     avatar: "avi_spiderman_no_way_home.png",
-    image: "spiderman_no_way_home.jpg",
+    image: "spiderman.jpg",
   },
   {
     name: "The Godfather",
@@ -182,7 +182,7 @@ export const allMovies = [
       "Action", "Crime"
     ],
     avatar: "avi_the_godfather.jpg",
-    image: "the_godfather.jpg",
+    image: "the_godfather.png",
   },
   {
     name: "Wandavision",
@@ -194,7 +194,7 @@ export const allMovies = [
       "Comedy", "Action"
     ],
     avatar: "avi_wandavision.jpg",
-    image: "wandavision.jpg",
+    image: "wandavision.png",
   },
   {
     name: "Ralph Breaks the Internet",
@@ -206,7 +206,7 @@ export const allMovies = [
       "Comedy", "Animation"
     ],
     avatar: "avi_ralph_breaks.jpg",
-    image: "ralph_breaks.jpg",
+    image: "ralph_breaks.png",
   },
   {
     name: "X-Men The Last Stand",

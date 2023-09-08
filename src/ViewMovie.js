@@ -9,7 +9,7 @@ function ViewMovie() {
   const params = useParams()
   const { movieName } = params;
   const nameOfMovie = movieName.replace(/_/g, ' ');
-  console.log(nameOfMovie)
+  console.log(params)
   const foundMovie = allMovies.find(movieObj => {
     return movieObj.name === nameOfMovie;
   });
@@ -21,7 +21,7 @@ function ViewMovie() {
       </section>
       <section className="container movie-picture-and-info-grapics">
         <section>
-          <img style={{'width': '200px', 'height': '100%', 'borderRadius': '8px', 'position': 'relative', 'bottom': 0 }} src="./images/spiderman.jpg" alt="movie poster"/>
+          <img style={{'width': '200px', 'height': '100%', 'borderRadius': '8px', 'position': 'relative', 'bottom': 0 }} src={`/images/${foundMovie.image}`} alt="movie poster"/>
         </section>
         <section className="audience" style={{'paddingBottom': '20px'}}>
           <Audience />

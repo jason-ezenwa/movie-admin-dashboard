@@ -16,7 +16,7 @@ export default function Audience () {
   return (
     <>
     <h2 className="audience-section-title" >Audience</h2>
-    <p className="audience-section-subtitle">Specific gender, age range and top locations</p>
+    <p className="audience-section-subtitle">Specific gender and top locations</p>
     <section className="audience-infographics" >
       <div className="audience-chart-div" >
       <SectionTitles h2="Gender"/>

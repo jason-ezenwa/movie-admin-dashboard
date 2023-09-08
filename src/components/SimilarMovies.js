@@ -31,7 +31,7 @@ export default function SimilarMovies () {
           {trendingMovies.map((trendingMovie, idx) => (
             <TableRow className="table-row" key={idx}>
               <TableCell className="name-column" component="th" scope="row" style={{ display: 'flex', alignItems: 'center', gap: '10px', flexShrink: 0 }}>
-                <img src={`./images/${trendingMovie.avatar}`} alt="movie avatar"/>
+                <img src={`/images/${trendingMovie.avatar}`} alt="movie avatar"/>
                 {trendingMovie.name}
               </TableCell>
               <TableCell align="left">{trendingMovie.category.map((category, idx) => (
