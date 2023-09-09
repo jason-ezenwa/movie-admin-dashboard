@@ -14,7 +14,6 @@ body {
   padding-left: 128px;
   padding-right: 128px;
   height: 72px;
-  justify-content: space-between;
   flex-shrink: 0;
   background: var(--brand-colors-moviebox-black, #000);
 }
@@ -35,6 +34,16 @@ body {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+
+.header-icons-and-avatar {
+  display: flex;
+  gap: 10px;
+}
+
+.main-navbar {
+  margin-left: 2%;
+  margin-right: auto;
 }
 
 ul {

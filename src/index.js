@@ -11,10 +11,12 @@ import TrendingMoviesPage from './TrendingMoviesPage';
 import UpcomingMoviesPage from './UpcomingMoviesPage';
 import MovieOfTheWeek from './MovieOfTheWeek';
 import ViewMovie from './ViewMovie';
+import ScrollToTop from "./ScrollToTop";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
+    <ScrollToTop/>
     <Header/>
     <Routes>
         <Route path='/' exact element={< Overview/>} />

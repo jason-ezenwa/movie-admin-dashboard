@@ -2,7 +2,7 @@ import { NavLink, useLocation } from "react-router-dom";
 export default function Navbar() {
 	const location = useLocation();
 	return (
-		<nav>
+		<nav className="main-navbar">
 			<ul>
 				<NavLink className={location.pathname === "/" ? "nav-link-active" : "nav-link"} to="/" activeStyle>
 					Overview

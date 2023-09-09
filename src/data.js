@@ -218,7 +218,7 @@ export const allMovies = [
       "Action", "Sci-Fi"
     ],
     avatar: "avi_xmen_the_last_stand.jpg",
-    image: "xmen_the_last_stand.jpg",
+    image: "xmen_the_last_stand.png",
   },
   {
     name: "Yogi Bear",
@@ -230,7 +230,7 @@ export const allMovies = [
       "Animation", "Comedy"
     ],
     avatar: "avi_yogi_bear.jpg",
-    image: "yogi_bear.jpg",
+    image: "yogi_bear.png",
   },
   {
     name: "Zootopia",
@@ -242,7 +242,7 @@ export const allMovies = [
       "Animation", "Comedy"
     ],
     avatar: "avi_zootopia.jpg",
-    image: "zootopia.jpg",
+    image: "zootopia.png",
   },
 ]
 
