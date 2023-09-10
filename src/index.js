@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Overview from './Overview';
 import Movies from './Movies';
+import Users from './Users'
 import Header from "./components/Header"
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route }
@@ -21,6 +22,7 @@ root.render(
     <Routes>
         <Route path='/' exact element={< Overview/>} />
         <Route path='/movies' exact element={< Movies/>} />
+        <Route path='/users' exact element={< Users/>} />
         <Route path='/movies/:movieName' exact element={< ViewMovie />} />
         <Route path='/trending-movies' exact element={< TrendingMoviesPage/>} />
         <Route path='/upcoming-premiers' exact element={< UpcomingMoviesPage/>} />

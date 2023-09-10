@@ -23,6 +23,7 @@ export default function AudiencePieChart(props) {
           data: pieChartData,
         },
       ]}
+      sx={{padding: '10px'}}
     />
   );
 };

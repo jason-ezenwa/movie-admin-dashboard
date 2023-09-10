@@ -317,3 +317,73 @@ export const hottestThisWeek = {
     }
   ]
 }
+
+export const userLogins = [
+  {
+    timeRange: '12:00am - 5:59am',
+    numOfLogins: 45972682,
+  },
+  {
+    timeRange: '6:00am - 11:59pm',
+    numOfLogins: 37005000,
+  },
+  {
+    timeRange: '12:00pm - 5:59pm',
+    numOfLogins: 55012300,
+  },
+  {
+    timeRange: '6:00pm - 11:59pm',
+    numOfLogins: 81708024,
+  },
+]
+
+export const averageWatchTime = [
+  {
+    users: 622840,
+    month: 'Jan',
+  },
+  {
+    users: 450000,
+    month: 'Feb',
+  },
+  {
+    users: 320600,
+    month: 'Mar',
+  },
+  {
+    users: 450000,
+    month: 'Apr',
+  },
+  {
+    users: 591049,
+    month: 'May',
+  },
+  {
+    users: 771048,
+    month: 'June',
+  },
+  {
+    users: 622840,
+    month: 'July',
+  },
+  {
+    users: 526851,
+    month: 'Aug',
+  },
+  {
+    users: 526851,
+    month: 'Sept',
+  },
+  {
+    users: 720456,
+    month: 'Oct',
+  },
+  {
+    users: 720456,
+    month: 'Nov',
+  },
+  {
+    users: 800670,
+    month: 'Dec',
+  },
+];

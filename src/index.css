@@ -38,7 +38,14 @@ body {
 
 .header-icons-and-avatar {
   display: flex;
+  align-items: center;
   gap: 10px;
+}
+
+.admin-avatar {
+  width: 22px;
+  height: 22px;
+  border-radius: 100px;
 }
 
 .main-navbar {
@@ -113,6 +120,18 @@ main {
 }
 
 
+.coming-soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #95a2cf;
+  font-size: 50px;
+  width: 35%;
+  height: 250px;
+  border: 1px solid #E0E0E0;
+}
+
+
 .view-button {
   display: flex;
   width: 100%;
@@ -173,7 +192,7 @@ main {
   margin-bottom: -30px;
 }
 
-.audience-section-title {
+.audience-section-title, .average-watchtime-section-title{
   color: var(--brand-colors-moviebox-black, #000);
   font-size: 16px;
   font-style: normal;
@@ -181,7 +200,36 @@ main {
   line-height: normal;
 }
 
-.section-subtitle {
+.average-watchtime-div {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 400px;
+  height: 250px;
+  border: 1px solid #E0E0E0; 
+}
+
+.user-charts-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+.average-watchtime-section-title {
+  margin-bottom: -10px;
+}
+
+
+
+.average-watchtime-section-subtitle {
+  margin-bottom: -40px;
+}
+
+.section-subtitle, .average-watchtime-section-subtitle {
   color: var(--brand-colors-moviebox-gray, #6A6A6A);
   font-size: 14px;
   font-style: normal;
@@ -287,17 +335,18 @@ main {
 
 
 
-.audience-chart-div {
+.audience-chart-div, .average-user-logins {
   display: flex;
   flex-direction: column;
   padding: 20px;
   justify-content: center;
   align-items: center;
   width: 300px;
-  height: 200px;
+  height: 220px;
   border: 1px solid #E0E0E0;
   margin-top: 20px;
 }
+
 
 .top-locations-div {
   width: 300px;
