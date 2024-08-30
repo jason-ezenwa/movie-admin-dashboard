@@ -4,7 +4,7 @@ Welcome to the Flairbox Admin Dashboard, a comprehensive movie administration hu
 
 Dive into insightful data about users and movies, beautifully presented through charts and infographics.
 The user interface is based off the designs in this figma file: https://www.figma.com/file/Gtr66WMFILMqRSiVaicOTc/A-Simple-Admin-Dashboard-(Community)?node-id=0%3A1&mode=dev
-NB: This project is under active development and is not yet complete.
+
 ## Tech Stack
 React: The project is built using the React JavaScript library, providing a robust and efficient front-end framework.
 
