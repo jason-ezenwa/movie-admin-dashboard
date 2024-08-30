@@ -1,4 +1,4 @@
-# Flairbox Admin Dashboard - a simple admin dashboard
+# Flairbox Admin Dashboard - An admin dashboard
 
 Welcome to the Flairbox Admin Dashboard, a comprehensive movie administration hub! Explore an array of views, from upcoming premieres to trending films, and access a complete database of all available movies.
 
